@@ -1,12 +1,12 @@
 # 💡  Pulumi Proxmox Container Example (C#)
-Since practical examples for the Pulumi Proxmox-Provider are kind of limited right now, this is meant as a simple showcase. This projects was crated based on the offical Pulumi-C# Template. 
+Since practical examples for the Pulumi Proxmox-Provider are kind of limited right now, this is meant as a simple showcase. This projects was created based on the offical Pulumi-C# Template. 
   
 # 📃 Requirements
-- .NET Runtime >= 6
+- .NET Runtime >= 6  
 https://learn.microsoft.com/en-us/dotnet/core/install/linux-ubuntu 
-- Pulumi: 
+- Pulumi:  
 https://www.pulumi.com/docs/get-started/install/
-- Pulumi Proxmox Provider: 
+- Pulumi Proxmox Provider:  
 ```dotnet add package Pulumi.ProxmoxVE --version 2.2.0```  
 (check for newer version on: https://github.com/muhlba91/pulumi-proxmoxve)
 - Proxmox root-credentials
