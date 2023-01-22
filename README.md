@@ -1,6 +1,5 @@
 # 💡  Pulumi Proxmox Container Example (C#)
-Since practical examples for the Pulumi Proxmox-Provider are kind of limited right now, this is meant as a simple showcase.  
-This projects was crated based on the offical Pulumi-C# Template. 
+Since practical examples for the Pulumi Proxmox-Provider are kind of limited right now, this is meant as a simple showcase. This projects was crated based on the offical Pulumi-C# Template. 
   
 # 📃 Requirements
 - .NET Runtime >= 6
@@ -22,10 +21,10 @@ https://registry.terraform.io/providers/bpg/proxmox/latest/docs/resources/virtua
 https://www.pulumi.com/registry/packages/proxmoxve/api-docs/ct/container/
 
 # 🛠 How to run 
-Preview changes:
+Preview changes:  
 ```pulumi preview```
   
-Run:
+Run:  
 ```pulumi up```
   
 Revert changes:  
