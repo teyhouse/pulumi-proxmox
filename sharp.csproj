@@ -8,7 +8,7 @@
 
   <ItemGroup>
     <PackageReference Include="Pulumi" Version="3.*" />
-    <PackageReference Include="Pulumi.ProxmoxVE" Version="2.2.0" />
+    <PackageReference Include="Pulumi.ProxmoxVE" Version="2.3.0" />
   </ItemGroup>
 
 </Project>

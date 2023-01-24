@@ -47,6 +47,7 @@ return await Deployment.RunAsync(() =>
    //Note: The current Pulumi-Proxmox Provider (Version 2.2.0) is missing the option for disk size 
    Pulumi.ProxmoxVE.CT.Inputs.ContainerDiskArgs diskargs = new Pulumi.ProxmoxVE.CT.Inputs.ContainerDiskArgs();
    diskargs.DatastoreId = "local-lvm";
+   diskargs.Size = 8;
    
    Pulumi.ProxmoxVE.CT.Inputs.ContainerCpuArgs cpuargs = new Pulumi.ProxmoxVE.CT.Inputs.ContainerCpuArgs();
    cpuargs.Cores = 1;
